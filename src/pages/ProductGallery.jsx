@@ -2,17 +2,18 @@ import React, { useEffect, useState } from "react";
 import "./ProductGallery.css";
 
 const productImages = [
-  { id: 1, src: "/images/cart-1.jpeg", alt: "Shoes" },
-  { id: 2, src: "/images/cart-3.jpeg", alt: "Makeup-kit" },
-  { id: 3, src: "/images/img-26.jpg", alt: "T-Shirts" },
-  { id: 4, src: "/images/cart-4.jpeg", alt: "Watches" },
-  { id: 5, src: "/images/cart-2.jpeg", alt: "Makeup" },
-  { id: 6, src: "/images/cart-6.jpeg", alt: "Helmets" },
-  { id: 7, src: "/images/cart-11.jpeg", alt: "Neckles" },
-  { id: 8, src: "/images/cart-12.png", alt: "Gogles" },
-  { id: 9, src: "/images/cart-8.jpeg", alt: "Bracelets" },
-  { id: 10, src: "/images/cart-1.jpeg", alt: "Shoes" },
+  { id: 1, src: `${import.meta.env.BASE_URL}images/cart-1.jpeg`, alt: "Shoes" },
+  { id: 2, src: `${import.meta.env.BASE_URL}images/cart-3.jpeg`, alt: "Makeup-kit" },
+  { id: 3, src: `${import.meta.env.BASE_URL}images/img-26.jpg`, alt: "T-Shirts" },
+  { id: 4, src: `${import.meta.env.BASE_URL}images/cart-4.jpeg`, alt: "Watches" },
+  { id: 5, src: `${import.meta.env.BASE_URL}images/cart-2.jpeg`, alt: "Makeup" },
+  { id: 6, src: `${import.meta.env.BASE_URL}images/cart-6.jpeg`, alt: "Helmets" },
+  { id: 7, src: `${import.meta.env.BASE_URL}images/cart-11.jpeg`, alt: "Neckles" },
+  { id: 8, src: `${import.meta.env.BASE_URL}images/cart-12.png`, alt: "Gogles" },
+  { id: 9, src: `${import.meta.env.BASE_URL}images/cart-8.jpeg`, alt: "Bracelets" },
+  { id: 10, src: `${import.meta.env.BASE_URL}images/cart-1.jpeg`, alt: "Shoes" },
 ];
+
 
 const ProductGallery = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { saveUser } from "../utils/auth";
 import { useNavigate, Link } from "react-router-dom";
@@ -13,10 +12,12 @@ const Signup = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const success = saveUser(user);
+
     if (!success) {
       setError("🚫 User already exists!");
     } else {
       localStorage.setItem("currentUser", JSON.stringify(user));
+      localStorage.setItem("isSignedUp", true); // 
       navigate("/shop");
     }
   };
@@ -42,7 +43,6 @@ const Signup = () => {
           onChange={(e) => setUser({ ...user, password: e.target.value })}
         />
         <button type="submit">Sign Up</button>
-
 
         <div className="login-redirect">
           <p>Already have an account?</p>

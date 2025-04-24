@@ -4,7 +4,7 @@ const products = [
     name: "Nike Air Max 270",
     price: 9999,
     description: "Stylish and comfortable running shoes by Nike.",
-    image: "/product-images/pro-111.jpeg",
+    image: `${import.meta.env.BASE_URL}product-images/pro-111.jpeg`,
     rating: 4
   },
   {
@@ -12,7 +12,7 @@ const products = [
     name: "Apple Watch Series 9",
     price: 34999,
     description: "Stay fit and connected with Apple’s latest smartwatch.",
-    image: "/product-images/pro-2.jpeg",
+    image: `${import.meta.env.BASE_URL}product-images/pro-2.jpeg`,
     rating: 5
   },
   {
@@ -20,7 +20,7 @@ const products = [
     name: "Men's Denim Shirt",
     price: 1999,
     description: "Classic blue denim shirt with a modern fit.",
-    image: "/product-images/pro-3.jpeg",
+    image: `${import.meta.env.BASE_URL}product-images/pro-3.jpeg`,
     rating: 4
   },
   {
@@ -28,7 +28,7 @@ const products = [
     name: "Maybelline Lipstick",
     price: 499,
     description: "Long-lasting matte lipstick in beautiful shades.",
-    image: "/product-images/pro-4.jpeg",
+    image: `${import.meta.env.BASE_URL}product-images/pro-4.jpeg`,
     rating: 5
   },
   {
@@ -36,7 +36,7 @@ const products = [
     name: "Adidas Running Shoes",
     price: 8999,
     description: "High-performance shoes perfect for long runs and gym workouts.",
-    image: "/product-images/pro-5.jpeg",
+    image: `${import.meta.env.BASE_URL}product-images/pro-5.jpeg`,
     rating: 5
   },
   {
@@ -44,7 +44,7 @@ const products = [
     name: "Samsung Galaxy Buds 2",
     price: 7999,
     description: "Wireless earbuds with ANC and rich sound quality.",
-    image: "/product-images/pro-6.jpeg",
+    image: `${import.meta.env.BASE_URL}product-images/pro-6.jpeg`,
     rating: 4
   },
   {
@@ -52,7 +52,7 @@ const products = [
     name: "Formal Leather Belt",
     price: 799,
     description: "Classic leather belt for business and formal wear.",
-    image: "/product-images/pro-7.jpeg",
+    image: `${import.meta.env.BASE_URL}product-images/pro-7.jpeg`,
     rating: 5
   },
   {
@@ -60,7 +60,7 @@ const products = [
     name: "Lakmé Face Cream",
     price: 299,
     description: "Glowing skin care face cream with vitamin E and almond oil.",
-    image: "/product-images/pro-8.jpeg",
+    image: `${import.meta.env.BASE_URL}product-images/pro-8.jpeg`,
     rating: 4
   },
   {
@@ -68,7 +68,7 @@ const products = [
     name: "Fossil Analog Watch",
     price: 12499,
     description: "Elegant analog watch with leather strap and date function.",
-    image: "/product-images/pro-9.jpeg",
+    image: `${import.meta.env.BASE_URL}product-images/pro-9.jpeg`,
     rating: 3
   },
   {
@@ -76,7 +76,7 @@ const products = [
     name: "T-Shirt Combo Pack (3)",
     price: 1499,
     description: "Combo pack of 3 stylish cotton T-shirts.",
-    image: "/product-images/pro-10.jpeg",
+    image: `${import.meta.env.BASE_URL}product-images/pro-10.jpeg`,
     rating: 5
   },
   {
@@ -84,7 +84,7 @@ const products = [
     name: "Philips Hair Dryer",
     price: 1799,
     description: "Quick dry with gentle airflow technology.",
-    image: "/product-images/pro-11.jpeg",
+    image: `${import.meta.env.BASE_URL}product-images/pro-11.jpeg`,
     rating: 3
   },
   {
@@ -92,7 +92,7 @@ const products = [
     name: "Sunscreen Lotion SPF 50",
     price: 599,
     description: "Waterproof SPF 50+ protection for sunny days.",
-    image: "/product-images/pro-12.jpeg",
+    image: `${import.meta.env.BASE_URL}product-images/pro-12.jpeg`,
     rating: 3
   },
   {
@@ -100,7 +100,7 @@ const products = [
     name: "Leather Handbag",
     price: 2999,
     description: "Stylish and durable leather handbag perfect for daily use.",
-    image: "/product-images/pro-13.jpeg",
+    image: `${import.meta.env.BASE_URL}product-images/pro-13.jpeg`,
     rating: 4
   },
   {
@@ -108,7 +108,7 @@ const products = [
     name: "Bluetooth Earbuds",
     price: 1599,
     description: "Wireless Bluetooth earbuds with noise cancellation feature.",
-    image: "/product-images/pro-14.jpeg",
+    image: `${import.meta.env.BASE_URL}product-images/pro-14.jpeg`,
     rating: 5
   },
   {
@@ -116,7 +116,7 @@ const products = [
     name: "Sports Sneakers",
     price: 2799,
     description: "Comfortable and lightweight sports sneakers.",
-    image: "/product-images/pro-15.jpeg",
+    image: `${import.meta.env.BASE_URL}product-images/pro-15.jpeg`,
     rating: 3
   },
   {
@@ -124,7 +124,7 @@ const products = [
     name: "Sunglasses",
     price: 899,
     description: "Stylish sunglasses with UV protection lenses.",
-    image: "/product-images/pro-16.jpeg",
+    image: `${import.meta.env.BASE_URL}product-images/pro-16.jpeg`,
     rating: 5
   },
   {
@@ -132,7 +132,7 @@ const products = [
     name: "Analog Watch",
     price: 1499,
     description: "Classic analog wristwatch with leather strap.",
-    image: "/product-images/pro-17.jpeg",
+    image: `${import.meta.env.BASE_URL}product-images/pro-17.jpeg`,
     rating: 3
   },
   {
@@ -140,7 +140,7 @@ const products = [
     name: "Wireless Mouse",
     price: 699,
     description: "Smooth and precise wireless mouse.",
-    image: "/product-images/pro-18.jpeg",
+    image: `${import.meta.env.BASE_URL}product-images/pro-18.jpeg`,
     rating: 4
   },
   {
@@ -148,7 +148,7 @@ const products = [
     name: "Backpack",
     price: 1999,
     description: "Waterproof and spacious backpack for college or travel.",
-    image: "/product-images/pro-19.jpeg",
+    image: `${import.meta.env.BASE_URL}product-images/pro-19.jpeg`,
     rating: 4
   },
   {
@@ -156,7 +156,7 @@ const products = [
     name: "Perfume Set",
     price: 1299,
     description: "Elegant perfume gift set for women.",
-    image: "/product-images/pro-20.jpeg",
+    image: `${import.meta.env.BASE_URL}product-images/pro-20.jpeg`,
     rating: 5
   },
   {
@@ -164,7 +164,7 @@ const products = [
     name: "Denim Jacket",
     price: 2499,
     description: "Trendy denim jacket with a vintage look.",
-    image: "/product-images/pro-21.jpeg",
+    image: `${import.meta.env.BASE_URL}product-images/pro-21.jpeg`,
     rating: 3
   },
   {
@@ -172,7 +172,7 @@ const products = [
     name: "Makeup Kit",
     price: 2199,
     description: "Complete makeup kit with brush, foundation, and palette.",
-    image: "/product-images/pro-22.jpeg",
+    image: `${import.meta.env.BASE_URL}product-images/pro-22.jpeg`,
     rating: 5
   },
   {
@@ -180,7 +180,7 @@ const products = [
     name: "Smart Fitness Band",
     price: 1799,
     description: "Track your health and activity with this smart band.",
-    image: "/product-images/pro-23.jpeg",
+    image: `${import.meta.env.BASE_URL}product-images/pro-23.jpeg`,
     rating: 5
   },
   {
@@ -188,7 +188,7 @@ const products = [
     name: "Casual Shoes",
     price: 1999,
     description: "Comfortable daily wear casual shoes.",
-    image: "/product-images/pro-24.jpeg",
+    image: `${import.meta.env.BASE_URL}product-images/pro-24.jpeg`,
     rating: 3
   },
   {
@@ -196,7 +196,7 @@ const products = [
     name: "Coffee Mug",
     price: 399,
     description: "Ceramic coffee mug with cool printed design.",
-    image: "/product-images/pro-25.jpeg",
+    image: `${import.meta.env.BASE_URL}product-images/pro-25.jpeg`,
     rating: 5
   },
   {
@@ -204,7 +204,7 @@ const products = [
     name: "Bluetooth Speaker",
     price: 2499,
     description: "Portable speaker with deep bass and 12-hour battery life.",
-    image: "/product-images/pro-26.jpeg",
+    image: `${import.meta.env.BASE_URL}product-images/pro-26.jpeg`,
     rating: 4
   },
   {
@@ -212,7 +212,7 @@ const products = [
     name: "Cotton Hoodie",
     price: 1599,
     description: "Comfortable and stylish unisex cotton hoodie.",
-    image: "/product-images/pro-27.jpeg",
+    image: `${import.meta.env.BASE_URL}product-images/pro-27.jpeg`,
     rating: 5
   },
   {
@@ -220,7 +220,7 @@ const products = [
     name: "Canon DSLR Camera",
     price: 45999,
     description: "High resolution Canon camera for pro photography.",
-    image: "/product-images/pro-28.jpeg",
+    image: `${import.meta.env.BASE_URL}product-images/pro-28.jpeg`,
     rating: 3
   }
 

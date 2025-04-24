@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import "./ImageSlider.css";
 
 const images = [
-  "/slider/slider-4.jpeg",
-  "/slider/slider-5.jpeg",
-  "/slider/slider-6.jpeg"
+  `${import.meta.env.BASE_URL}slider/slider-4.jpeg`,
+  `${import.meta.env.BASE_URL}slider/slider-5.jpeg`,
+  `${import.meta.env.BASE_URL}slider/slider-6.jpeg`
 ];
 
 function ImageSlider() {
